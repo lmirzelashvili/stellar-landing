@@ -1,0 +1,137 @@
+#root {
+    display:flex; 
+    width: 100vw;
+    height: 100vh;
+}
+
+p {
+    font-size: 22px;
+    color: #AEC4EC;
+    font-family: Poppins;
+    line-height: 170%;
+    text-align: center;
+    max-width: 994px;
+}
+
+#background {
+    display:flex; 
+    flex: 1 1 100%;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-repeat: no-repeat;
+    
+}
+
+.container {
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.planets {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.self-center {
+    align-self: center;
+}
+
+.btn {
+    background: linear-gradient(178.89deg, #1F3DB6 14.22%, #2345CA 36.3%, #355AEE 99.05%);
+    box-shadow: inset 0px -5.84723px 0px #1F3DB5;
+    border-radius: 11.6945px 11.6945px 7.7963px 7.7963px;
+    padding: 20px 30px;
+    align-self: center;
+    margin-top: 30px;
+}
+
+
+@media (max-width: 460px) {
+    #background {
+    
+        background-image: url("./BG/bg-sm.jpg");
+    }
+
+    .self-center {
+        max-width: 220px;
+    }
+
+    .planets img {
+        max-width: 300px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .btn svg {
+        width: 60px;
+        height: 20px;
+    }
+}
+
+@media (min-width:460px) and (max-width: 600px) {
+    #background {
+    
+        background-image: url("./BG/bg-sm.jpg");
+    }
+
+    .self-center {
+        max-width: 300px;
+    }
+
+    .planets img {
+        max-width: 400px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+@media (min-width:600px) and (max-width: 768px) {
+    #background {
+    
+        background-image: url("./BG/bg-md.jpg");
+    }
+
+    .self-center {
+        max-width: 500px;
+        padding-top: 50px;
+    }
+
+    .planets img {
+        max-width: 520px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+
+
+@media (min-width:768px) and (max-width: 992px) {
+    #background {
+    
+        background-image: url("./BG/bg-md.jpg");
+    }
+}
+
+@media (min-width:992px) {
+    #background {
+        background-image: url("./BG/bg-xl.jpg");
+    }
+}
+
+
+
+
+
+
+
