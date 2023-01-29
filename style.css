@@ -45,8 +45,7 @@ p {
 .btn {
     background: linear-gradient(178.89deg, #1F3DB6 14.22%, #2345CA 36.3%, #355AEE 99.05%);
     box-shadow: inset 0px -5.84723px 0px #1F3DB5;
-    border-radius: 11.6945px 11.6945px 7.7963px 7.7963px;
-    padding: 20px 30px;
+    border-radius: 12px 12px 8px 8px;
     align-self: center;
     margin-top: 30px;
 }
@@ -60,6 +59,7 @@ p {
 
     .self-center {
         max-width: 220px;
+        margin-top: 60px;
     }
 
     .planets img {
@@ -71,8 +71,12 @@ p {
     }
 
     .btn svg {
-        width: 60px;
-        height: 20px;
+        width: 70px;
+        height: 30px;
+    }
+
+    .btn {
+        padding: 10px 20px;
     }
 }
 
@@ -83,7 +87,8 @@ p {
     }
 
     .self-center {
-        max-width: 300px;
+        max-width: 360px;
+        margin-top: 80px;
     }
 
     .planets img {
@@ -91,7 +96,16 @@ p {
     }
 
     p {
-        font-size: 14px;
+        font-size: 16px;
+    }
+
+    .btn svg {
+        width: 100px;
+        height: 60px;
+    }
+
+    .btn {
+        padding: 0px 25px;
     }
 }
 
@@ -113,6 +127,15 @@ p {
     p {
         font-size: 18px;
     }
+
+    .btn svg {
+        width: 110px;
+        height: 70px;
+    }
+
+    .btn {
+        padding: 0px 25px;
+    }
 }
 
 
@@ -121,11 +144,34 @@ p {
     
         background-image: url("./BG/bg-md.jpg");
     }
+
+    .self-center {
+        max-width: 660px;
+    }
+
+    .btn svg {
+        width: 120px;
+        height: 80px;
+    }
+
+    .btn {
+        padding: 0px 30px;
+    }
 }
 
 @media (min-width:992px) {
     #background {
         background-image: url("./BG/bg-xl.jpg");
+    }
+
+    .btn svg {
+        width: 120px;
+        height: 80px;
+    }
+
+    .btn {
+        margin-top: 40px;
+        padding: 0px 30px;
     }
 }
 
