@@ -13,6 +13,12 @@ p {
     max-width: 994px;
 }
 
+.orbitalcopy {
+    max-width: 76px;
+    align-self: center;
+    margin-bottom: 25px;
+}
+
 #background {
     display:flex; 
     flex: 1 1 100%;
@@ -59,7 +65,7 @@ p {
 
     .self-center {
         max-width: 220px;
-        margin-top: 60px;
+       
     }
 
     .planets img {
@@ -78,6 +84,13 @@ p {
     .btn {
         padding: 10px 20px;
     }
+
+    .orbitalcopy {
+        max-width: 56px;
+        align-self: center;
+        margin-top: 100px;
+    }
+
 }
 
 @media (min-width:460px) and (max-width: 600px) {
@@ -88,7 +101,7 @@ p {
 
     .self-center {
         max-width: 360px;
-        margin-top: 80px;
+        
     }
 
     .planets img {
@@ -107,6 +120,13 @@ p {
     .btn {
         padding: 0px 25px;
     }
+
+    .orbitalcopy {
+        max-width: 66px;
+        align-self: center;
+        margin-top: 30px;
+    }
+    
 }
 
 @media (min-width:600px) and (max-width: 768px) {
@@ -117,7 +137,7 @@ p {
 
     .self-center {
         max-width: 500px;
-        padding-top: 50px;
+        padding-top: 5px;
     }
 
     .planets img {
@@ -135,6 +155,12 @@ p {
 
     .btn {
         padding: 0px 25px;
+    }
+
+    .orbitalcopy {
+        max-width: 86px;
+        align-self: center;
+        margin-top: 20px;
     }
 }
 
@@ -157,6 +183,11 @@ p {
     .btn {
         padding: 0px 30px;
     }
+    .orbitalcopy {
+        max-width: 86px;
+        align-self: center;
+        margin-top: 20px;
+    }
 }
 
 @media (min-width:992px) {
@@ -172,6 +203,12 @@ p {
     .btn {
         margin-top: 40px;
         padding: 0px 30px;
+    }
+
+    .orbitalcopy {
+        max-width: 100px;
+        align-self: center;
+        margin-top: 20px;
     }
 }
 
